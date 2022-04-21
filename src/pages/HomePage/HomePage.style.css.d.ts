@@ -1,7 +1,7 @@
 declare namespace HomePageStyleCssNamespace {
-  export interface IHomePageStyleCss {
-    container: string;
-  }
+    export interface IHomePageStyleCss {
+        container: string;
+    }
 }
 
 declare const HomePageStyleCssModule: HomePageStyleCssNamespace.IHomePageStyleCss;
