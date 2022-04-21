@@ -94,6 +94,9 @@ html {
 
     user-select: none;
 
+    --color-blue-light: #E7FAFE;
+    --color-blue-dark: #D2FAFE;
+
     font-family: "Inter", sans-serif;
 }
 
