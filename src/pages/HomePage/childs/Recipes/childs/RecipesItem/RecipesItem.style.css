@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+
+    padding: 16px;
+
+    cursor: pointer;
+}
+
+.container img {
+    margin: auto;
+}
+
+.name {
+    margin: 24px 0;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.parameters {
+    display: grid;
+    grid-template-columns: max-content max-content auto;
+    grid-column-gap: 24px;
+
+    margin-bottom: 16px;
+}
+
+.parameter-container {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-column-gap: 13px;
+}
+
+.parameter-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.6);
+
+    margin: auto;
+}
