@@ -1,5 +1,5 @@
 .container {
-    margin: 0 6%;
+    margin: 160px 6%;
 }
 
 .title-container {
@@ -42,4 +42,5 @@
 .list-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 40px;
 }
