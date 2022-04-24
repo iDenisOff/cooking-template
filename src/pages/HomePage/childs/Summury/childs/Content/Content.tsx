@@ -2,6 +2,10 @@ import React from "react";
 import styles from "./Content.style.css";
 
 export const Content: React.FC = () => {
+    const onClick = (): void => {
+        location.reload();
+    };
+
     return (
         <div className={styles.container}>
             <p className={styles.title}>
@@ -16,7 +20,7 @@ export const Content: React.FC = () => {
                 <br/>
                 {"ad minim "}
             </p>
-            <button className={styles.button}>
+            <button className={styles.button} onClick={onClick}>
                 {"Learn More"}
             </button>
         </div>
