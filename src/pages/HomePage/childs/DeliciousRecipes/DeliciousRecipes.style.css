@@ -1,0 +1,32 @@
+.container {
+    margin: 160px 6%;
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-bottom: 80px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+
+    margin: auto;
+}
+
+.recipes-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+}
