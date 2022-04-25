@@ -1,8 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-
-    padding: 0 15%;
+    grid-gap: 60px;
 
     align-content: center;
     text-align: center;
@@ -14,11 +13,10 @@
     line-height: 19px;
 
     cursor: pointer;
-    transition: 0.2s;
 }
 
 .text:hover {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .text-active {

@@ -18,7 +18,7 @@ export const RecipesItem: React.FC<RecipesItemProps> = (props) => {
 
     return (
         <div className={styles.container} onClick={onClick}>
-            <img src={props.photoUrl} alt={props.name}/>
+            <img src={props.photoUrl} alt={props.name} style={{ width: "100%"}}/>
             <p className={styles.name}>{props.name}</p>
             <div className={styles.parameters}>
                 <div className={styles.parameterContainer}>
