@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./RecipesItem.style.css";
-import {TimerIcon} from "./content/TimerIcon";
-import {ForkIcon} from "./content/ForkIcon";
-import {KnifeIcon} from "./content/KnifeIcon";
+import {TimerIcon} from "../../../../../../components/Icons/TimerIcon";
+import {ForkIcon} from "../../../../../../components/Icons/ForkIcon";
+import {KnifeIcon} from "../../../../../../components/Icons/KnifeIcon";
 
 type RecipesItemProps = {
     photoUrl: string;
@@ -18,7 +18,7 @@ export const RecipesItem: React.FC<RecipesItemProps> = (props) => {
 
     return (
         <div className={styles.container} onClick={onClick}>
-            <img src={props.photoUrl} alt={props.name} style={{ width: "100%"}}/>
+            <img src={props.photoUrl} alt={props.name} style={{width: "100%"}}/>
             <p className={styles.name}>{props.name}</p>
             <div className={styles.parameters}>
                 <div className={styles.parameterContainer}>

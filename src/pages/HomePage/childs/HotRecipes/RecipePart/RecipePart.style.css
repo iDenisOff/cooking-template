@@ -1,0 +1,145 @@
+.container {
+    background: #E7FAFE;
+    border-radius: 40px 0 0 40px;
+
+    padding: 50px;
+}
+
+.label {
+    display: grid;
+    grid-template-columns: max-content max-content;
+
+    width: max-content;
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    padding: 10px 20px;
+    margin-bottom: 32px;
+}
+
+.label-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    margin: auto;
+    padding-left: 13px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+
+    padding-bottom: 24px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+
+    padding-bottom: 30px;
+}
+
+.parameters {
+    display: grid;
+    grid-template-columns: max-content max-content auto;
+    grid-column-gap: 16px;
+
+    margin-bottom: 100px;
+}
+
+.parameter-container {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-column-gap: 13px;
+
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+
+    padding: 8px 16px;
+}
+
+.parameter-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.6);
+
+    margin: auto;
+}
+
+.contacts-container {
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+
+    align-items: center;
+}
+
+.post {
+    display: grid;
+    padding-left: 16px;
+}
+
+.post-author {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 8px;
+}
+
+.post-date {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.6);
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-column-gap: 17px;
+
+    margin: auto;
+    padding: 21px 37px;
+    background-color: var(--color-black);
+
+    border: none;
+    border-radius: 16px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-white);
+
+    transition: 0.5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: var(--color-black-light);
+}
+
+.button-content {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-column-gap: 17px;
+
+    line-height: 100%;
+}
+
+.button-text {
+    margin: auto;
+}

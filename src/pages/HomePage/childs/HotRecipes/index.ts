@@ -1,0 +1,1 @@
+export {HotRecipes} from "./HotRecipes";
