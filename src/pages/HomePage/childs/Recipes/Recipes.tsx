@@ -26,7 +26,7 @@ export const Recipes: React.FC = () => {
                 <RecipesItem photoUrl={oatmealPancake} name={"Strawberry Oatmeal Pancake with Honey Syrup"} time={30} type={"Breakfast"}/>
                 <RecipesItem photoUrl={salad} name={"Fresh and Healthy Mixed Mayonnaise Salad"} time={30} type={"Healthy"}/>
                 <RecipesItem photoUrl={meatballs} name={"Chicken Meatballs with Cream Cheese"} time={30} type={"Meat"}/>
-                <img src={contact} alt={"contact"} onClick={onClick}/>
+                <img src={contact} alt={"contact"} onClick={onClick} style={{margin: "auto"}}/>
                 <RecipesItem photoUrl={fruityPancake} name={"Fruity Pancake with Orange & Blueberry"} time={30} type={"Sweet"}/>
                 <RecipesItem photoUrl={chickenAndRice} name={"The Best Easy One Pot Chicken and Rice"} time={30} type={"Snack"}/>
                 <RecipesItem photoUrl={chickenAndPasta} name={"The Creamiest Creamy Chicken and Bacon Pasta"} time={30} type={"Noodles"}/>

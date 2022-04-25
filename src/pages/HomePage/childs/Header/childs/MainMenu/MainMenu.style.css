@@ -14,10 +14,11 @@
     line-height: 19px;
 
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .text:hover {
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .text-active {

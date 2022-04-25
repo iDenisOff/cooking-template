@@ -7,6 +7,11 @@
     padding: 16px;
 
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.container:hover {
+    transform: scale(1.05);
 }
 
 .container img {

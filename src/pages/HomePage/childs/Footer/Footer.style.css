@@ -4,7 +4,7 @@
 
 .top {
     display: grid;
-    grid-template-columns: auto max-content;
+    grid-template-columns: 1.1fr 1fr;
 
     padding-bottom: 48px;
 
@@ -25,7 +25,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-
     color: rgba(0, 0, 0, 0.6);
 }
 

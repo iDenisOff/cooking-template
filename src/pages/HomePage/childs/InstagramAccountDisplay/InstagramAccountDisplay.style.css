@@ -33,8 +33,13 @@
 
 .image {
     cursor: pointer;
+
+    transition: 0.5s;
 }
 
+.image:hover {
+    transform: scale(1.1);
+}
 
 .button {
     display: grid;
@@ -52,12 +57,13 @@
     font-size: 14px;
     line-height: 17px;
     color: var(--color-white);
+
+    transition: 0.5s;
 }
 
 .button:hover {
-    background-color: var(--color-black-light);
-
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .button:active {

@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Header.style.css";
-import { MainMenu } from "./childs/MainMenu";
-import facebook from "./content/facebook.png";
-import twitter from "./content/twitter.png";
-import instagram from "./content/instagram.png";
+import {MainMenu} from "./childs/MainMenu";
+import {FacebookIcon} from "../../../../components/Icons/FacebookIcon";
+import {TwitterIcon} from "../../../../components/Icons/TwitterIcon";
+import {InstagramIcon} from "../../../../components/Icons/InstagramIcon";
 
 export const Header: React.FC = () => {
     const onClick = (): void => {
@@ -12,12 +12,12 @@ export const Header: React.FC = () => {
 
     return (
         <div className={styles.container}>
-            <span className={styles.logo}>{"Foodieland."}</span>
-            <MainMenu />
+            <span className={styles.logo} onClick={onClick}>{"Foodieland."}</span>
+            <MainMenu/>
             <div className={styles.contacts}>
-                <img src={facebook} alt={"facebook"} onClick={onClick} />
-                <img src={twitter} alt={"twitter"} onClick={onClick} />
-                <img src={instagram} alt={"instagram"} onClick={onClick} />
+                <span onClick={onClick}><FacebookIcon/></span>
+                <span onClick={onClick}><TwitterIcon/></span>
+                <span onClick={onClick}><InstagramIcon/></span>
             </div>
         </div>
     );
