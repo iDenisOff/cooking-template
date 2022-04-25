@@ -1,0 +1,59 @@
+.container {
+    margin: 160px 6% 0 6%;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: auto max-content;
+
+    padding-bottom: 48px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    margin-bottom: 16px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: auto max-content;
+
+    align-content: center;
+    text-align: center;
+
+    padding: 48px 0;
+}
+
+.bottom-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.6);
+
+    padding-left: 150px;
+}
+
+.bottom-contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+}
+
+.bottom-contacts svg {
+    cursor: pointer;
+}

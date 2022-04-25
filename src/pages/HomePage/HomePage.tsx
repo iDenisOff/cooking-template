@@ -7,6 +7,7 @@ import {Summary} from "./childs/Summury";
 import {InstagramAccountDisplay} from "./childs/InstagramAccountDisplay";
 import {DeliciousRecipes} from "./childs/DeliciousRecipes";
 import {Feedback} from "./childs/Feedback";
+import {Footer} from "./childs/Footer";
 
 export const HomePage: React.FC = () => {
     return (
@@ -18,6 +19,7 @@ export const HomePage: React.FC = () => {
             <InstagramAccountDisplay />
             <DeliciousRecipes />
             <Feedback />
+            <Footer />
         </div>
     );
 };
