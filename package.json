@@ -1,8 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "cooking-template",
   "version": "0.1.0",
   "private": true,
   "main": "index.tsx",
+  "sideEffects": ["*.scss", "*.less", "*.css"],
   "devDependencies": {
     "@teamsupercell/typings-for-css-modules-loader": "^2.5.1",
     "@types/html-webpack-plugin": "3.2.6",
@@ -36,7 +37,8 @@
     "webpack-cli": "4.9.2",
     "webpack-dev-server": "4.7.4",
     "webpack-merge": "5.8.0",
-    "react-player": "^2.10.0"
+    "react-player": "^2.10.0",
+    "swiper": "^8.1.4"
   },
   "dependencies": {
     "cross-env": "7.0.3",

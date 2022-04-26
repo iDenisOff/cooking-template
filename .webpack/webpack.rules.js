@@ -11,7 +11,8 @@ module.exports = [
         use: ["style-loader", "css-loader"],
     },
     {
-        test: /\.style.css$/,
+        test: /\.(style|min).(scss|css)$/,
+        sideEffects: false,
         use: [
             "style-loader",
             {

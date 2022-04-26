@@ -7,7 +7,7 @@
 
 .label {
     display: grid;
-    grid-template-columns: max-content max-content;
+    grid-template-columns: auto max-content;
 
     width: max-content;
     background: #FFFFFF;
@@ -15,6 +15,10 @@
 
     padding: 10px 20px;
     margin-bottom: 32px;
+}
+
+.label img {
+    border-radius: 0;
 }
 
 .label-text {

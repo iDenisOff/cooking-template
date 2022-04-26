@@ -1,5 +1,6 @@
 declare namespace HotRecipesStyleCssNamespace {
     export interface IHotRecipesStyleCss {
+        badge: string;
         container: string;
     }
 }
