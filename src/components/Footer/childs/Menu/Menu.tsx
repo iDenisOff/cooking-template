@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Menu.style.css";
-import {mainMenuItems} from "../../../../../../common/consts";
-import {styler} from "../../../../../../utils/styler";
 import {useLocation} from "react-router-dom";
+import { mainMenuItems } from "../../../../common/consts";
+import { styler } from "../../../../utils/styler";
 
 export const Menu: React.FC = () => {
     const currentPathname = useLocation().pathname;

@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Footer.style.css";
-import {Menu} from "./childs/Menu";
-import {FacebookIcon} from "../../../../components/Icons/FacebookIcon";
-import {TwitterIcon} from "../../../../components/Icons/TwitterIcon";
-import {InstagramIcon} from "../../../../components/Icons/InstagramIcon";
+import { Menu } from "./childs/Menu";
+import { FacebookIcon } from "../Icons/FacebookIcon";
+import { TwitterIcon } from "../Icons/TwitterIcon";
+import { InstagramIcon } from "../Icons/InstagramIcon";
 
 export const Footer: React.FC = () => {
     const onClick = (): void => {
