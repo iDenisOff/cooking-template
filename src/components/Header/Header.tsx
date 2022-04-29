@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Header.style.css";
-import {MainMenu} from "./childs/MainMenu";
-import {FacebookIcon} from "../../../../components/Icons/FacebookIcon";
-import {TwitterIcon} from "../../../../components/Icons/TwitterIcon";
-import {InstagramIcon} from "../../../../components/Icons/InstagramIcon";
+import { MainMenu } from "./childs/MainMenu";
+import { FacebookIcon } from "../Icons/FacebookIcon";
+import { TwitterIcon } from "../Icons/TwitterIcon";
+import { InstagramIcon } from "../Icons/InstagramIcon";
 
 export const Header: React.FC = () => {
     const onClick = (): void => {
