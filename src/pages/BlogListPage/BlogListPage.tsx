@@ -4,6 +4,7 @@ import { Header } from "../../components/Header";
 import { Feedback } from "../../components/Feedback";
 import { Footer } from "../../components/Footer";
 import { InputWithButton } from "../../components/InputWithButton";
+import { BlogList } from "./childs/BlogList";
 
 export const BlogListPage: React.FC = () => {
     return (
@@ -12,6 +13,10 @@ export const BlogListPage: React.FC = () => {
             <p className={styles.title}>{"Blog & Article"}</p>
             <p className={styles.text}>{"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"}</p>
             <InputWithButton inputPlaceholder={"Search article, news or recipe..."} buttonText={"Search"} />
+            <div className={styles.main}>
+              <BlogList />
+              <div></div>
+            </div>
             <Feedback />
             <Footer />
         </div>

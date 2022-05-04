@@ -1,6 +1,7 @@
 declare namespace BlogListPageStyleCssNamespace {
     export interface IBlogListPageStyleCss {
         container: string;
+        main: string;
         text: string;
         title: string;
     }
