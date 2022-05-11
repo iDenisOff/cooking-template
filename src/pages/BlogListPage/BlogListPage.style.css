@@ -34,7 +34,7 @@
 
 .main {
     display: grid;
-    grid-template-columns: 840px 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-column-gap: 40px;
 
     margin: 0 6% 160px 6%;

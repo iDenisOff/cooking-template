@@ -1,0 +1,16 @@
+.container {
+}
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    margin-bottom: 32px;
+}
+
+.contact-container {
+    margin-top: 48px;
+
+    text-align: center;
+}
