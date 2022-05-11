@@ -1,0 +1,1 @@
+export { TastyRecipesItem } from "./TastyRecipesItem";

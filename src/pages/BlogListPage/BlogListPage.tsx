@@ -5,6 +5,7 @@ import { Feedback } from "../../components/Feedback";
 import { Footer } from "../../components/Footer";
 import { InputWithButton } from "../../components/InputWithButton";
 import { BlogList } from "./childs/BlogList";
+import { TastyRecipes } from "./childs/TastyRecipes";
 
 export const BlogListPage: React.FC = () => {
     return (
@@ -15,7 +16,7 @@ export const BlogListPage: React.FC = () => {
             <InputWithButton inputPlaceholder={"Search article, news or recipe..."} buttonText={"Search"} />
             <div className={styles.main}>
               <BlogList />
-              <div></div>
+              <TastyRecipes />
             </div>
             <Feedback />
             <Footer />
