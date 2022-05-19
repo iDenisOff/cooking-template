@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./RecipeParameters.style.css";
-import author from "../../../../../HomePage/childs/HotRecipes/RecipePart/content/author.png";
-import { TimerIcon } from "../../../../../../components/Icons/TimerIcon";
-import { ForkIcon } from "../../../../../../components/Icons/ForkIcon";
-import { KnifeIcon } from "../../../../../../components/Icons/KnifeIcon";
+import author from "../../../../../../../HomePage/childs/HotRecipes/RecipePart/content/author.png";
+import { TimerIcon } from "../../../../../../../../components/Icons/TimerIcon";
+import { ForkIcon } from "../../../../../../../../components/Icons/ForkIcon";
+import { KnifeIcon } from "../../../../../../../../components/Icons/KnifeIcon";
 
 type RecipeParametersProps = {
     authorPhotoUrl: string;

@@ -5,7 +5,16 @@ import { Feedback } from "../../components/Feedback";
 import { Footer } from "../../components/Footer";
 import { InputWithButton } from "../../components/InputWithButton";
 import { BlogList } from "./childs/BlogList";
-import { TastyRecipes } from "./childs/TastyRecipes";
+import { TastyRecipes } from "../../components/TastyRecipes";
+import chickenMeatballs from "./content/chickenMeatballs.png";
+import ragu from "./content/ragu.png";
+import dumplings from "./content/dumplings.png";
+
+const recipesItems = [
+  { photoUrl: chickenMeatballs, title: "Chicken Meatballs with Cream Cheese", author: "By Andreas Paula"},
+  { photoUrl: ragu, title: "Traditional Bolognaise Ragu", author: "By Andreas Paula"},
+  { photoUrl: dumplings, title: "Pork and Chive Chinese Dumplings", author: "By Andreas Paula"},
+];
 
 export const BlogListPage: React.FC = () => {
     return (
@@ -16,7 +25,7 @@ export const BlogListPage: React.FC = () => {
             <InputWithButton inputPlaceholder={"Search article, news or recipe..."} buttonText={"Search"} />
             <div className={styles.main}>
               <BlogList />
-              <TastyRecipes />
+              <TastyRecipes title={"Tasty Recipes"} items={recipesItems} />
             </div>
             <Feedback />
             <Footer />
