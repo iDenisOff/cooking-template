@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+
+    align-items: center;
+
+    margin: 50px 0;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: max-content auto;
+
+    align-items: center;
+
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.item-parameters {
+    display: grid;
+    padding-left: 16px;
+}
+
+.parameter-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 8px;
+}
+
+.parameter-value {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.6);
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
