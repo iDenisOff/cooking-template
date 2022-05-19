@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-column-gap: 24px;
+
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    align-items: center;
+}
+
+.button {
+    width: 24px;
+    height: 24px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}

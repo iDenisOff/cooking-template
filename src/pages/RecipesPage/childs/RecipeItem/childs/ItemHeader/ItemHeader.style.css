@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: auto max-content max-content;
+    grid-column-gap: 32px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+}

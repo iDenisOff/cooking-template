@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-rows: repeat(6, max-content) auto;
+
+    background-color: #E7FAFE;
+    border-radius: 30px;
+
+    padding: 32px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    padding-bottom: 8px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: auto max-content;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+}
+
+.item-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.item-value {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.text {
+    display: flex;
+    align-items: flex-end;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
