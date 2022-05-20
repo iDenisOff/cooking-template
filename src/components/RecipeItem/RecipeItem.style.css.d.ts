@@ -1,9 +1,10 @@
 declare namespace RecipeItemStyleCssNamespace {
     export interface IRecipeItemStyleCss {
-        block: string;
         container: string;
-        summary: string;
-        text: string;
+        name: string;
+        parameterContainer: string;
+        parameterText: string;
+        parameters: string;
     }
 }
 

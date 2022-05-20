@@ -4,6 +4,7 @@ import { Header } from "../../components/Header";
 import { Feedback } from "../../components/Feedback";
 import { Footer } from "../../components/Footer";
 import { RecipeItem } from "./childs/RecipeItem";
+import { Recommendations } from "./childs/Recommendations";
 
 export const RecipesPage: React.FC = () => {
     return (
@@ -11,6 +12,7 @@ export const RecipesPage: React.FC = () => {
             <Header />
             <RecipeItem />
             <Feedback />
+            <Recommendations />
             <Footer />
         </div>
     );
