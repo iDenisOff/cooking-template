@@ -1,17 +1,17 @@
 import React from "react";
-import styles from "./RecipesItem.style.css";
-import {TimerIcon} from "./content/TimerIcon";
-import {ForkIcon} from "./content/ForkIcon";
-import {KnifeIcon} from "./content/KnifeIcon";
+import styles from "./RecipeItem.style.css";
+import { TimerIcon } from "../Icons/TimerIcon";
+import { ForkIcon } from "../Icons/ForkIcon";
+import { KnifeIcon } from "../Icons/KnifeIcon";
 
-type RecipesItemProps = {
+type RecipeItemProps = {
     photoUrl: string;
     name: string;
     time: number;
     type: string;
 }
 
-export const RecipesItem: React.FC<RecipesItemProps> = (props) => {
+export const RecipeItem: React.FC<RecipeItemProps> = (props) => {
     const onClick = (): void => {
         location.reload();
     };

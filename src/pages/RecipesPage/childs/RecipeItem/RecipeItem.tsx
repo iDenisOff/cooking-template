@@ -9,6 +9,8 @@ import { TastyRecipes } from "../../../../components/TastyRecipes";
 import chickenMeatballs from "./content/chickenMeatballs.png";
 import ragu from "./content/ragu.png";
 import dumplings from "./content/dumplings.png";
+import { Directions } from "./childs/Directions";
+import direction from "./content/direction.png";
 
 const informationItems = [
     { title: "Calories", value: "219.9 kcal", },
@@ -36,6 +38,27 @@ const recipesItems = [
     { photoUrl: chickenMeatballs, title: "Chicken Meatballs with Cream Cheese", author: "By Andreas Paula"},
     { photoUrl: ragu, title: "Traditional Bolognaise Ragu", author: "By Andreas Paula"},
     { photoUrl: dumplings, title: "Pork and Chive Chinese Dumplings", author: "By Andreas Paula"},
+];
+
+const directionsItems = [
+    {
+        title: "Lorem ipsum dolor sit amet ",
+        content: (
+              <>
+                  <span className={styles.text}>{"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."}</span>
+                  <img src={direction} alt={"direction"} style={{ padding: "48px 0" }} />
+                  <span className={styles.text}>{"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."}</span>
+              </>
+        ),
+},
+    {
+        title: "Lorem ipsum dolor sit amet ",
+        content: <span className={styles.text}>{"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."}</span>
+    },
+    {
+        title: "Lorem ipsum dolor sit amet ",
+        content: <span className={styles.text}>{"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."}</span>
+    },
 ];
 
 export const RecipeItem: React.FC = () => {
@@ -67,6 +90,9 @@ export const RecipeItem: React.FC = () => {
             <div className={styles.block}>
                 <Ingredients dishIngredientNames={dishIngredients} sauceIngredientNames={sauceIngredients} />
                 <TastyRecipes title={"Other Recipe"} items={recipesItems} />
+            </div>
+            <div className={styles.block}>
+                <Directions items={directionsItems} />
             </div>
         </div>
     );
