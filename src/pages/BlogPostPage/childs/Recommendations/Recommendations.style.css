@@ -1,0 +1,18 @@
+.container {
+    margin: 160px 6%;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    margin-bottom: 80px;
+}
+
+.recipes-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+}

@@ -3,6 +3,7 @@ import { routesPaths } from "./common/consts";
 import { HomePage } from "./pages/HomePage";
 import { BlogListPage } from "./pages/BlogListPage";
 import { RecipesPage } from "./pages/RecipesPage";
+import { BlogPostPage } from "./pages/BlogPostPage";
 
 export const routes = [
     {
@@ -18,6 +19,11 @@ export const routes = [
     {
         path: routesPaths.blogPage,
         component: BlogListPage,
+        exact: true,
+    },
+    {
+        path: routesPaths.aboutUsPage,
+        component: BlogPostPage,
         exact: true,
     },
 ] as RouteProps[];
