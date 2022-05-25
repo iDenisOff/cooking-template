@@ -4,6 +4,7 @@ import { HomePage } from "./pages/HomePage";
 import { BlogListPage } from "./pages/BlogListPage";
 import { RecipesPage } from "./pages/RecipesPage";
 import { BlogPostPage } from "./pages/BlogPostPage";
+import { ContactPage } from "./pages/ContactPage";
 
 export const routes = [
     {
@@ -24,6 +25,11 @@ export const routes = [
     {
         path: routesPaths.aboutUsPage,
         component: BlogPostPage,
+        exact: true,
+    },
+    {
+        path: routesPaths.contactPage,
+        component: ContactPage,
         exact: true,
     },
 ] as RouteProps[];
