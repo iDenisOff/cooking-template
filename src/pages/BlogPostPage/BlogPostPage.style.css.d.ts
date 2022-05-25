@@ -5,6 +5,9 @@ declare namespace BlogPostPageStyleCssNamespace {
         block: string;
         container: string;
         date: string;
+        link: string;
+        linksContainer: string;
+        linksTitle: string;
         postParameters: string;
         text: string;
         title: string;
