@@ -1,5 +1,7 @@
 declare namespace ContactPageStyleCssNamespace {
     export interface IContactPageStyleCss {
+        button: string;
+        buttonContainer: string;
         container: string;
         content: string;
         title: string;

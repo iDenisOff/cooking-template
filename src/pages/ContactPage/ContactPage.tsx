@@ -15,6 +15,9 @@ export const ContactPage: React.FC = () => {
             <div className={styles.content}>
                 <img src={cook} alt={"cook"}/>
                 <ContactForm />
+                <div className={styles.buttonContainer}>
+                    <button className={styles.button}>{"Submit"}</button>
+                </div>
             </div>
             <Feedback />
             <Recommendations />

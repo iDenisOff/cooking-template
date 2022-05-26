@@ -38,27 +38,19 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.button {
-    margin: auto;
-    padding: 21px 47px;
-    background-color: var(--color-black);
+.message {
+    padding: 18px;
 
-    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 16px;
 
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 17px;
-    color: var(--color-white);
+    line-height: 24px;
 
-    transition: 0.5s;
-}
+    color: rgba(0, 0, 0, 0.6);
 
-.button:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-.button:active {
-    background-color: var(--color-black-light);
+    resize: none;
 }
