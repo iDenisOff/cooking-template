@@ -1,8 +1,8 @@
 declare namespace ContactFormStyleCssNamespace {
     export interface IContactFormStyleCss {
-        button: string;
         container: string;
         input: string;
+        message: string;
         row: string;
         title: string;
     }

@@ -26,9 +26,8 @@ export const ContactForm: React.FC = () => {
             </div>
             <div style={{ display: "grid", gridTemplateRows: "max-content auto" }}>
                 <p className={styles.title}>{"messages"}</p>
-                <input type={"text"} placeholder={"Enter your messages..."} className={styles.input}/>
+                <textarea placeholder={"Enter your messages..."} className={styles.message}/>
             </div>
-            <button className={styles.button}>{"Submit"}</button>
         </div>
     );
 };
