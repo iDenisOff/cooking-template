@@ -7,7 +7,7 @@ type InstagramIconProps = {
 };
 
 export const InstagramIcon: React.FC<InstagramIconProps> = ({color = "#000000", width = 23, height = 22}) => (
-    <svg width={width} height={height} viewBox="0 0 23 22" xmlns="http://www.w3.org/2000/svg">
+    <svg width={width} height={height} viewBox="0 0 24 22" xmlns="http://www.w3.org/2000/svg">
         <path
             d="M7.83667 0H16.0867C19.883 0 22.9617 3.07862 22.9617 6.875V15.125C22.9617 18.9214 19.883 22 16.0867 22H7.83667C4.04029 22 0.96167 18.9214 0.96167 15.125V6.875C0.96167 3.07862 4.04029 0 7.83667 0ZM16.0867 19.9375C18.7404 19.9375 20.8992 17.7787 20.8992 15.125V6.875C20.8992 4.22125 18.7404 2.0625 16.0867 2.0625H7.83667C5.18292 2.0625 3.02417 4.22125 3.02417 6.875V15.125C3.02417 17.7787 5.18292 19.9375 7.83667 19.9375H16.0867Z"
             fill={color}/>

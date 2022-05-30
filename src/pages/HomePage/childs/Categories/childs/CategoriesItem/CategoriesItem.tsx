@@ -9,7 +9,8 @@ type CategoriesItemProps = {
 
 export const CategoriesItem: React.FC<CategoriesItemProps> = (props) => {
     const onClick = (): void => {
-        location.reload();
+        window.scrollTo(0, 0);
+        location.href = "/#";
     };
 
     return (

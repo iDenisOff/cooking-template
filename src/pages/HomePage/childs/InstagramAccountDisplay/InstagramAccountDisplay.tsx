@@ -8,7 +8,7 @@ import {InstagramIcon} from "../../../../components/Icons/InstagramIcon";
 
 export const InstagramAccountDisplay: React.FC = () => {
     const onClick = (): void => {
-        location.reload();
+        location.href = "https://www.instagram.com/";
     };
 
     return (

@@ -25,7 +25,7 @@
     padding: 0 23%;
 }
 
-.contacts span {
+.contacts a {
     display: grid;
 
     text-align: center;
