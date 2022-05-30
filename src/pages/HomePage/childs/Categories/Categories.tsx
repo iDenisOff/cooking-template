@@ -10,7 +10,8 @@ import chocolate from "./content/chocolate.png";
 
 export const Categories: React.FC = () => {
     const onClick = (): void => {
-        location.reload();
+        window.scrollTo(0, 0);
+        location.href = "/#";
     };
 
     return <div className={styles.container}>

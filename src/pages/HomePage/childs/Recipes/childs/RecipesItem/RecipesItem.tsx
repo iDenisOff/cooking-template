@@ -3,6 +3,7 @@ import styles from "./RecipesItem.style.css";
 import {TimerIcon} from "../../../../../../components/Icons/TimerIcon";
 import {ForkIcon} from "../../../../../../components/Icons/ForkIcon";
 import {KnifeIcon} from "../../../../../../components/Icons/KnifeIcon";
+import { routesPaths } from "../../../../../../common/consts";
 
 type RecipesItemProps = {
     photoUrl: string;
@@ -13,7 +14,8 @@ type RecipesItemProps = {
 
 export const RecipesItem: React.FC<RecipesItemProps> = (props) => {
     const onClick = (): void => {
-        location.reload();
+        window.scrollTo(0, 0);
+        location.href = "/#" + routesPaths.recipesPage;
     };
 
     return (

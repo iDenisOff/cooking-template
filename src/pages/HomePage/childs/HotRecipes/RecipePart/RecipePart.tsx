@@ -6,10 +6,12 @@ import {ForkIcon} from "../../../../../components/Icons/ForkIcon";
 import {KnifeIcon} from "../../../../../components/Icons/KnifeIcon";
 import author from "./content/author.png";
 import {PlayIcon} from "../../../../../components/Icons/PlayIcon";
+import { routesPaths } from "../../../../../common/consts";
 
 export const RecipePart: React.FC = () => {
     const onClick = (): void => {
-        location.reload();
+        window.scrollTo(0, 0);
+        location.href = "/#" + routesPaths.recipesPage;
     };
 
     return (

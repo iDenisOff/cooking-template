@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./Content.style.css";
+import { routesPaths } from "../../../../../../common/consts";
 
 export const Content: React.FC = () => {
     const onClick = (): void => {
-        location.reload();
+        window.scrollTo(0, 0);
+        location.href = "/#" + routesPaths.aboutUsPage;
     };
 
     return (

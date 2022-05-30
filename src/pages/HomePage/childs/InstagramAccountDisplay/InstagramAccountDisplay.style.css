@@ -38,7 +38,7 @@
 }
 
 .image:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .button {
@@ -63,7 +63,7 @@
 
 .button:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .button:active {

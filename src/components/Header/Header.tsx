@@ -15,9 +15,9 @@ export const Header: React.FC = () => {
             <span className={styles.logo} onClick={onClick}>{"Foodieland."}</span>
             <MainMenu/>
             <div className={styles.contacts}>
-                <span onClick={onClick}><FacebookIcon/></span>
-                <span onClick={onClick}><TwitterIcon/></span>
-                <span onClick={onClick}><InstagramIcon/></span>
+                <a href={"https://ru-ru.facebook.com/"}><FacebookIcon/></a>
+                <a href={"https://twitter.com"}><TwitterIcon/></a>
+                <a href={"https://www.instagram.com/"}><InstagramIcon/></a>
             </div>
         </div>
     );
