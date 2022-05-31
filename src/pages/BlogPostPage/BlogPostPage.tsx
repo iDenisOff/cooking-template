@@ -12,10 +12,6 @@ import { TwitterIcon } from "../../components/Icons/TwitterIcon";
 import { InstagramIcon } from "../../components/Icons/InstagramIcon";
 
 export const BlogPostPage: React.FC = () => {
-    const onClick = (): void => {
-      location.reload();
-    };
-
     return (
           <div className={styles.container}>
               <Header />
@@ -38,9 +34,9 @@ export const BlogPostPage: React.FC = () => {
                   <PostContent />
                   <div className={styles.linksContainer}>
                       <p className={styles.linksTitle}>{"SHARE THIS ON:"}</p>
-                      <p className={styles.link} onClick={onClick}><FacebookIcon /></p>
-                      <p className={styles.link} onClick={onClick}><TwitterIcon /></p>
-                      <p className={styles.link} onClick={onClick}><InstagramIcon /></p>
+                      <p className={styles.link}><a href={"https://ru-ru.facebook.com/"}><FacebookIcon/></a></p>
+                      <p className={styles.link}><a href={"https://twitter.com"}><TwitterIcon/></a></p>
+                      <p className={styles.link}><a href={"https://www.instagram.com/"}><InstagramIcon/></a></p>
                   </div>
               </div>
               <Feedback />

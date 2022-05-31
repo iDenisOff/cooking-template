@@ -11,7 +11,7 @@
 
 .container:hover {
     background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .title {

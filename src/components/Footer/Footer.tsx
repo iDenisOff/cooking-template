@@ -6,10 +6,6 @@ import { TwitterIcon } from "../Icons/TwitterIcon";
 import { InstagramIcon } from "../Icons/InstagramIcon";
 
 export const Footer: React.FC = () => {
-    const onClick = (): void => {
-        location.reload();
-    };
-
     return (
         <div className={styles.container}>
             <div className={styles.top}>
@@ -22,9 +18,9 @@ export const Footer: React.FC = () => {
             <div className={styles.bottom}>
                 <span className={styles.bottomText}>{"© 2020 Flowbase. Powered by Webflow"}</span>
                 <div className={styles.bottomContacts}>
-                    <span onClick={onClick}><FacebookIcon/></span>
-                    <span onClick={onClick}><TwitterIcon/></span>
-                    <span onClick={onClick}><InstagramIcon/></span>
+                    <a href={"https://ru-ru.facebook.com/"}><FacebookIcon/></a>
+                    <a href={"https://twitter.com"}><TwitterIcon/></a>
+                    <a href={"https://www.instagram.com/"}><InstagramIcon/></a>
                 </div>
             </div>
         </div>

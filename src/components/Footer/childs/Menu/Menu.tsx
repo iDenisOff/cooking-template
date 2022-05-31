@@ -7,6 +7,10 @@ import { styler } from "../../../../utils/styler";
 export const Menu: React.FC = () => {
     const currentPathname = useLocation().pathname;
 
+    const onClick = (): void => {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <ul className={styles.container}>
             {mainMenuItems.map(({name, route}) => (
@@ -14,6 +18,7 @@ export const Menu: React.FC = () => {
                     <Link
                       className={styler(styles.text, [route === currentPathname, styles.textActive])}
                       to={{ pathname: route }}
+                      onClick={onClick}
                     >
                         {name}
                     </Link>

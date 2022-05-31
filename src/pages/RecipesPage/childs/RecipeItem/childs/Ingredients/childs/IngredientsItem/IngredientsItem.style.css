@@ -9,12 +9,12 @@
     align-items: center;
 }
 
-.button {
+.input {
     width: 24px;
     height: 24px;
 }
 
-.button:hover {
+.input:hover {
     cursor: pointer;
 }
 

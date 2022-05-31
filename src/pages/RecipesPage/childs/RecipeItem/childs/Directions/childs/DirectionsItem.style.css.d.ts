@@ -1,7 +1,7 @@
 declare namespace DirectionsItemStyleCssNamespace {
     export interface IDirectionsItemStyleCss {
-        button: string;
         container: string;
+        input: string;
         text: string;
         title: string;
     }
