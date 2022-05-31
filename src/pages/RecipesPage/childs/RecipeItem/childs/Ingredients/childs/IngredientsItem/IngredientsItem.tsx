@@ -8,7 +8,7 @@ type IngredientsItemProps = {
 export const IngredientsItem: React.FC<IngredientsItemProps> = (props) => {
     return (
         <div className={styles.container}>
-            <input type={"radio"} className={styles.button} />
+            <input type={"radio"} className={styles.input} disabled />
             <span className={styles.text}>{props.text}</span>
         </div>
     );

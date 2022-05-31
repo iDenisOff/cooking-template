@@ -1,7 +1,7 @@
 declare namespace IngredientsItemStyleCssNamespace {
     export interface IIngredientsItemStyleCss {
-        button: string;
         container: string;
+        input: string;
         text: string;
     }
 }

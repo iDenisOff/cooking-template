@@ -9,7 +9,7 @@ type DirectionsItemProps = {
 export const DirectionsItem: React.FC<DirectionsItemProps> = (props) => {
     return (
         <div className={styles.container}>
-            <input type={"radio"} className={styles.button} />
+            <input type={"radio"} className={styles.input} disabled />
             <div>
                 <p className={styles.title}>{props.title}</p>
                 {props.content}
